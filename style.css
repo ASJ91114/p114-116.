@@ -1,0 +1,43 @@
+h3 {
+    font-size: 25px;
+}
+
+.btn-success:hover {
+    background-color: linear-gradient(135deg, #ff00e0, #ffeb3b, #14ffe9);
+}
+
+canvas {
+    animation-name: animation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animation {
+    0% {
+        box-shadow: 7px 7px 40px violet;
+    }
+
+    14% {
+        box-shadow: 7px 7px 40px indigo;
+    }
+
+    28% {
+        box-shadow: 7px 7px 40px blue;
+    }
+
+    52% {
+        box-shadow: 7px 7px 40px green;
+    }
+
+    68% {
+        box-shadow: 7px 7px 40px yellow;
+    }
+
+    82% {
+        box-shadow: 7px 7px 40px orange;
+    }
+
+    100% {
+        box-shadow: 7px 7px 40px red;
+    }
+}
